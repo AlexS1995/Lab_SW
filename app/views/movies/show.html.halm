@@ -1,0 +1,8 @@
+%h2 Details about #{@movies.title}
+%ul#Details
+  %li
+    Rating:
+    = @movie.rating
+  %li
+
+= link_to 'Back to home page' , movies_path
